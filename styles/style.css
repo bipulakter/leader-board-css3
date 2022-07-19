@@ -119,7 +119,13 @@ hr{
     .player, .blog, .course{
         flex-direction: column;
     }
-   
+    .section-title{
+        text-align: center;
+    }
+    .thumbnail{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* tablet devices */
@@ -129,5 +135,12 @@ hr{
     }
     .players, .courses{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .section-title{
+        text-align: center;
+    }
+    .thumbnail{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
